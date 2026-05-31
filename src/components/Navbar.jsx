@@ -28,8 +28,7 @@ export default function Navbar() {
     >
       <div className={styles.inner}>
         <a href="#hero" className={styles.logo}>
-          <span className={styles.logoMono}>dp</span>
-          <span className={styles.logoDot}>.dev</span>
+          <img src="/favicon.svg" alt="dp logo" className={styles.logoImg} />
         </a>
         <ul className={styles.links}>
           {links.map((l) => (
