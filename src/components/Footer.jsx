@@ -7,9 +7,14 @@ export default function Footer() {
         <span className={styles.left}>
           <span className={styles.mono}>dp.dev</span> — Denil José Parada Cabrera
         </span>
-        <span className={styles.right}>
-          Construido con React + Vite · Desplegado en Railway
-        </span>
+        <a
+          href="https://denil-portfolio-production.up.railway.app"
+          className={styles.right}
+          target="_blank"
+          rel="noreferrer"
+        >
+          denil-portfolio-production.up.railway.app ↗
+        </a>
       </div>
     </footer>
   )

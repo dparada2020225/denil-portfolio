@@ -2,7 +2,7 @@
 
 Portafolio personal construido con React 18 + Vite. Diseño futurista sobrio con animaciones scroll-reveal usando Framer Motion, dockerizado y listo para deploy en Railway.
 
-**URL en producción:** _[pendiente de deploy]_
+**URL en producción:** https://denil-portfolio-production.up.railway.app
 
 ## Stack
 
