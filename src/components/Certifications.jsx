@@ -72,7 +72,7 @@ export default function Certifications() {
                       className={styles.item}
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: true }}
+                      viewport={{ once: false }}
                       transition={{ delay: gi * 0.08 + ii * 0.05 }}
                     >
                       <div className={styles.itemLeft}>

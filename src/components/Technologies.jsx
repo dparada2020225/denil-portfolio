@@ -65,7 +65,7 @@ export default function Technologies() {
                       className={styles.item}
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
+                      viewport={{ once: false }}
                       transition={{ delay: gi * 0.1 + ii * 0.07, duration: 0.5 }}
                     >
                       <div className={styles.itemHeader}>
